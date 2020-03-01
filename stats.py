@@ -289,7 +289,7 @@ class fisher():
 		self.c=c
 		self.d=d
 	def hyp_geo(self,a,b,c,d):
-		'''base is called on class instantiation'''
+		base is called on class instantiation
 		return (n_choose_x(a+b,c)*n_choose_x(c+d,c)/
 			n_choose_x(a+b+c+d,a+c)+(1/n_choose_x(a+b+c+d,a+c)))
 '''
@@ -568,7 +568,7 @@ def movie_feat1(doc):
     return feat
 
 
-
+'''
 ##Name classifier
 names=[[i,'male'] for i in names.words('male.txt')]+[[i,'female'] for i in names.words('female.txt')]
 
@@ -591,7 +591,4 @@ movie_docs=[[list(movie_reviews.words(i)),cat]
 
 for i in sorted(all_movie_words,key=all_movie_words.__getitem__,reverse=True):
     print(i,all_movie_words[i])
-
-
-
-
+'''
